@@ -1,0 +1,3 @@
+{{ $month_names := slice "Gen" "Feb" "Mar" "Apr" "Mag" "Giu" "Lug" "Ago" "Sett" "Ott" "Nov" "Dic" }}
+    {{ $month := sub .Date.Month 1 }}
+    {{ .Date.Format (.Site.Params.dateFormatToUse) }} {{index $month_names $month}} {{ .Date.Format (.Site.Params.dateFormatYear) }}
