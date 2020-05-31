@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "it"
-title = "cortosconto"
+title = "stelladistante"
 paginate = 2
 theme = "final"
 

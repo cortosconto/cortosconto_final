@@ -1,4 +1,4 @@
-<div class="offset-xl-1 col-xl-7 pl-xl-3 pr-xl-3 content-wrapper">
+<div class="offset-xl-1 col-xl-7 pl-xl-3 pr-xl-3 mb-5 content-wrapper">
 
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" site.Params.mainSections) }}
   {{ range $paginator.Pages }}
