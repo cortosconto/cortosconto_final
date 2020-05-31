@@ -26,10 +26,6 @@ a, a:hover {
   font-size: 1.1em;
 }
 
-/* .border-right {
-  border-color: #eee !important;
-} */
-
 .post-image {
   width: 100%;
   border-radius: 15px;
@@ -75,4 +71,12 @@ a, a:hover {
 
 .footer-copy > a:not(:last-child) {
   text-decoration: underline;
+}
+
+.logo {
+  width: 4em;
+}
+
+.unless-last:last-child {
+    display: none;
 }
